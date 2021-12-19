@@ -16,19 +16,19 @@ export default {
         return {
             pets: [
                 {
-                    id: 1,
-                    avatar: '🦊',
-                    name: 'Farofa'
+                    id: 4,
+                    avatar: '🐵',
+                    name: 'Prego'
                 },
                 {
-                    id: 2,
-                    avatar: '🐭',
-                    name: 'Mimi Mouse'
+                    id: 5,
+                    avatar: '🐛',
+                    name: 'Chumbrega'
                 },
                 {
-                    id: 3,
-                    avatar: '🐷',
-                    name: 'Lulu'
+                    id: 6,
+                    avatar: '🐶',
+                    name: 'Lolim'
                 }
             ]
         }
