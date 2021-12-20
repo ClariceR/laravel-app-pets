@@ -19298,17 +19298,17 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       pets: [{
-        id: 4,
-        avatar: '🐵',
-        name: 'Prego'
+        id: 1,
+        avatar: '🦊',
+        name: 'Farofa'
       }, {
-        id: 5,
-        avatar: '🐛',
-        name: 'Chumbrega'
+        id: 2,
+        avatar: '🐭',
+        name: 'Mimi Mouse'
       }, {
-        id: 6,
-        avatar: '🐶',
-        name: 'Lolim'
+        id: 3,
+        avatar: '🐷',
+        name: 'Lulu'
       }]
     };
   }
