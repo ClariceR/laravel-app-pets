@@ -28,4 +28,9 @@ Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+<<<<<<< HEAD
+=======
+Route::get('/pets', 'MyPetsController@index')->name('pets.index');
+
+>>>>>>> parent of f3d54dc (Creating model again)
 require __DIR__.'/auth.php';
