@@ -17,8 +17,3 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
-<<<<<<< HEAD
-=======
-
-Route::apiResource('pets', PetController::class);
->>>>>>> parent of f3d54dc (Creating model again)
