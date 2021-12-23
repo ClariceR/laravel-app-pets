@@ -10,7 +10,7 @@ import Card from '@/Components/Card.vue';
 export default {
     name: 'Cards',
     components: {
-        Card
+        Card,
     },
     data() {
         return {

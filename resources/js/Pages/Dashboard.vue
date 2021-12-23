@@ -20,7 +20,7 @@
         </div>
 
         <div class="flex flex-wrap">
-            
+    
         </div>
     </BreezeAuthenticatedLayout>
 </template>
