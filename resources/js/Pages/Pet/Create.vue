@@ -14,7 +14,6 @@
                     <div class="p-6 bg-white border-b border-gray-200">
                         <form @submit.prevent="submit">
                             <div>
-                                <create-form />
                                 <label for="avatar">Avatar</label>
                                 <input
                                     type="text"
@@ -32,10 +31,10 @@
                                     "
                                 />
                             </div>
-                            <div class="mt-4">
-                                <label for="avatar">Name</label>
-                                <textarea
-                                    name="name"
+                            <br />
+                            <div>
+                                <label for="name">Name</label>
+                                <input
                                     type="text"
                                     v-model="form.name"
                                     class="
@@ -49,10 +48,9 @@
                                         focus:ring-1
                                         focus:ring-blue-600
                                     "
-                                >
-                                </textarea>
+                                />
                             </div>
-
+                            <br />
                             <!-- submit -->
                             <div class="flex items-center mt-4">
                                 <button
@@ -80,12 +78,11 @@ import BreezeAuthenticatedLayout from "@/Layouts/Authenticated.vue";
 import BreezeLabel from "@/Components/Label";
 import { Head } from "@inertiajs/inertia-vue3";
 import { useForm } from "@inertiajs/inertia-vue3";
-import CreateForm from '@/Components/CreateForm.vue';
+
 export default {
     components: {
         BreezeAuthenticatedLayout,
         Head,
-        CreateForm
     },
     setup() {
         const form = useForm({
